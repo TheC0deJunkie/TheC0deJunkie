@@ -26,8 +26,11 @@ WhatsApp shows up in a lot of it, and that's deliberate. It's the app people her
 so putting clocking, leave, payslips or birthday reminders inside a chat thread beats asking anyone
 to install one more thing.
 
-Most of these repos are private, because they're client work or live products. The write-ups below
-say what's in each one.
+The source for client work and live products stays private, so each project below links to a
+public write-up instead: what it is, why it's built that way, and the stack. Two things are open
+with full source — [whatsapp-bot-template](https://github.com/TheC0deJunkie/whatsapp-bot-template)
+and [webapp-template](https://github.com/TheC0deJunkie/webapp-template), both pulled out of
+production apps.
 
 ## ⚡ Quick facts
 
@@ -56,12 +59,12 @@ say what's in each one.
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [**BeGivvy**](https://begivvy.ai) | WhatsApp-native birthday reminders and gifting, built as a social graph rather than a calendar bot. Multi-timezone scheduling, AI wishlist parsing, ranked gift suggestions. | TypeScript, Prisma, Neon Postgres, Twilio, Gemini, Vercel |
-| [**Kept In Print**](https://keptinprint.co.za) | Turns a WhatsApp chat export into a printed keepsake book. Pixel-accurate WhatsApp rendering in both themes, A5 two-column pagination, imposed PDF export. | Next.js 16, Firebase, Paystack, Puppeteer, pdf-lib |
-| **KwaMnquhe** | Grocery storefront, offline-first POS and the Mnquhe Card prepaid wallet, built for a shop starting from a shipping container. | Next.js, Preact PWA, Supabase, Dexie / IndexedDB |
-| [**EazyHR**](https://eazyhr.ai) | Multi-tenant HR and payroll platform. Clocking, leave and payslips over one WhatsApp contact, with an employer dashboard. SARS PAYE brackets, UIF, BCEA leave rules. | React, Vite, Express, Supabase, Paystack, Twilio |
-| **Riverrr** | Credit-builder fintech — wallet, card, a plan that reports contributions to build credit history, plus group savings, funeral cover and merchant payments. | Next.js 16, Drizzle ORM, Neon Postgres, Paystack |
-| [**Tholakala**](https://tholakala.app) | Missing-persons and lost-property platform for the Ebuhleni pilgrimage. Steward console, offline-tolerant PWA, Flutter field app, and a found-child flow that never publishes a child's details. | Next.js, Neon Postgres, Twilio, signed-URL storage, magic-link / OTP auth |
+| [**BeGivvy**](https://github.com/TheC0deJunkie/begivvy) | WhatsApp-native birthday reminders and gifting, built as a social graph rather than a calendar bot. Multi-timezone scheduling, AI wishlist parsing, ranked gift suggestions. | TypeScript, Prisma, Neon Postgres, Twilio, Gemini, Vercel |
+| [**Kept In Print**](https://github.com/TheC0deJunkie/kept-in-print) | Turns a WhatsApp chat export into a printed keepsake book. Pixel-accurate WhatsApp rendering in both themes, A5 two-column pagination, imposed PDF export. | Next.js 16, Firebase, Paystack, Puppeteer, pdf-lib |
+| [**KwaMnquhe**](https://github.com/TheC0deJunkie/kwamnquhe) | Grocery storefront, offline-first POS and the Mnquhe Card prepaid wallet, built for a shop starting from a shipping container. | Next.js, Preact PWA, Supabase, Dexie / IndexedDB |
+| [**EazyHR**](https://github.com/TheC0deJunkie/eazyhr) | Multi-tenant HR and payroll platform. Clocking, leave and payslips over one WhatsApp contact, with an employer dashboard. SARS PAYE brackets, UIF, BCEA leave rules. | React, Vite, Express, Supabase, Paystack, Twilio |
+| [**Riverrr**](https://github.com/TheC0deJunkie/riverrr-fintech) | Credit-builder fintech — wallet, card, a plan that reports contributions to build credit history, plus group savings, funeral cover and merchant payments. | Next.js 16, Drizzle ORM, Neon Postgres, Paystack |
+| [**Tholakala**](https://github.com/TheC0deJunkie/tholakala-platform) | Missing-persons and lost-property platform for the Ebuhleni pilgrimage. Steward console, offline-tolerant PWA, Flutter field app, and a found-child flow that never publishes a child's details. | Next.js, Neon Postgres, Twilio, signed-URL storage, magic-link / OTP auth |
 
 Live and maintained by me day to day, build work plus the hosting, DNS and Google Workspace
 behind each one: **BeGivvy, Kept In Print, Tholakala, KwaMnquhe** and **Kwandengezi Medical
@@ -71,9 +74,9 @@ Centre**. EazyHR and Riverrr are no longer maintained.
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [**Kwandengezi Medical Centre**](https://www.drpanday.co.za) | Practice website with local SEO, plus a one-question-at-a-time patient form builder. | Next.js 14, Neon Postgres |
-| **Practice mail console** | A usable front end over DirectAdmin so staff manage mailboxes without touching Roundcube. | Next.js, IMAP / SMTP, DirectAdmin API |
-| [**Konvrg**](https://konvrg.dev) | Marketing site for WhatsApp-based business systems. | Next.js 16, Tailwind |
+| [**Kwandengezi Medical Centre**](https://github.com/TheC0deJunkie/kwandengezi-medical-centre) | Practice website with local SEO, plus a one-question-at-a-time patient form builder. | Next.js 14, Neon Postgres |
+| [**Practice mail console**](https://github.com/TheC0deJunkie/practice-mail-console) | A usable front end over DirectAdmin so staff manage mailboxes without touching Roundcube. | Next.js, IMAP / SMTP, DirectAdmin API |
+| [**Konvrg**](https://github.com/TheC0deJunkie/konvrg-site) | Marketing site for WhatsApp-based business systems. | Next.js 16, Tailwind |
 | **Citi Ad Agency** | Web design agency, since exited. Priced per project rather than by page count. Sites for Zerny Experiential, Nova College, Harmattan Renewables, WindAC (SAWEA / Windaba), Boston Private, Hamptons, Hartford House Preparatory and Harrington Primary — built there, no longer maintained by me. | WordPress, HTML / CSS / JS |
 
 ### Things I built to learn
@@ -82,7 +85,7 @@ Centre**. EazyHR and Riverrr are no longer maintained.
 | --- | --- | --- |
 | **llm-from-scratch** | A GPT built twice. Stage 1 is NumPy with hand-written reverse-mode autodiff; stage 2 is the same model on PyTorch tensors. Copy stage 1's weights across and the logits agree to 9e-08. | NumPy, PyTorch |
 | **aviator-rng-lab** | A falsifiable experiment on whether a live crash game's outcome sequence carries any structure. Set up so that a negative result is believable. | Python, pandas |
-| **whatsapp-bot-template** | Provider-agnostic WhatsApp bot skeleton pulled out of a production system: 16-step webhook pipeline, Prisma session store, numbered-menu UX. | TypeScript, Express, Prisma |
+| [**whatsapp-bot-template**](https://github.com/TheC0deJunkie/whatsapp-bot-template) | Provider-agnostic WhatsApp bot skeleton pulled out of a production system: 16-step webhook pipeline, Prisma session store, numbered-menu UX. | TypeScript, Express, Prisma |
 
 ## 🛠️ How I build
 
