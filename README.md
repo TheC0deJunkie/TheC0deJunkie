@@ -62,12 +62,12 @@ production apps.
 | [**Kept In Print**](https://github.com/TheC0deJunkie/kept-in-print) | Turns a WhatsApp chat export into a printed keepsake book. Pixel-accurate WhatsApp rendering in both themes, A5 two-column pagination, imposed PDF export. | Next.js 16, Firebase, Paystack, Puppeteer, pdf-lib |
 | [**KwaMnquhe**](https://github.com/TheC0deJunkie/kwamnquhe) | Grocery storefront, offline-first POS and the Mnquhe Card prepaid wallet, built for a shop starting from a shipping container. | Next.js, Preact PWA, Supabase, Dexie / IndexedDB |
 | [**EazyHR**](https://github.com/TheC0deJunkie/eazyhr) | Multi-tenant HR and payroll platform. Clocking, leave and payslips over one WhatsApp contact, with an employer dashboard. SARS PAYE brackets, UIF, BCEA leave rules. | React, Vite, Express, Supabase, Paystack, Twilio |
-| [**Riverrr**](https://github.com/TheC0deJunkie/riverrr-fintech) | Credit-builder fintech — wallet, card, a plan that reports contributions to build credit history, plus group savings, funeral cover and merchant payments. | Next.js 16, Drizzle ORM, Neon Postgres, Paystack |
+| [**Riverrr**](https://github.com/TheC0deJunkie/riverrr-fintech) | A credit-builder design project: twelve bureau stamps toward a credit record, an itemised monthly slip, and a journey map. A concept build, not a licensed product. | Next.js 16, Drizzle ORM, Neon Postgres |
 | [**Tholakala**](https://github.com/TheC0deJunkie/tholakala-platform) | Missing-persons and lost-property platform for the Ebuhleni pilgrimage. Steward console, offline-tolerant PWA, Flutter field app, and a found-child flow that never publishes a child's details. | Next.js, Neon Postgres, Twilio, signed-URL storage, magic-link / OTP auth |
 
 Live and maintained by me day to day, build work plus the hosting, DNS and Google Workspace
 behind each one: **BeGivvy, Kept In Print, Tholakala, KwaMnquhe** and **Kwandengezi Medical
-Centre**. EazyHR and Riverrr are no longer maintained.
+Centre**. EazyHR is no longer maintained; Riverrr is a design project.
 
 ### Client &amp; agency work
 
