@@ -7,7 +7,6 @@
 
 <p align="center">
   <a href="https://wa.me/27680815781">WhatsApp</a> ·
-  <a href="https://citiadagency.co.za">Website</a> ·
   <a href="https://www.linkedin.com/in/khulekani-shaun-mpanza1">LinkedIn</a> ·
   <a href="mailto:khulekani.zondi704@gmail.com">Email</a>
 </p>
@@ -133,6 +132,5 @@ Open to client work and collaboration. WhatsApp is the fastest way to reach me.
 - 💬 [+27 68 081 5781](https://wa.me/27680815781) — WhatsApp
 - ✉️ [khulekani.zondi704@gmail.com](mailto:khulekani.zondi704@gmail.com)
 - 💼 [linkedin.com/in/khulekani-shaun-mpanza1](https://www.linkedin.com/in/khulekani-shaun-mpanza1)
-- 🌐 [citiadagency.co.za](https://citiadagency.co.za)
 
 <sub>Durban, KwaZulu-Natal.</sub>
