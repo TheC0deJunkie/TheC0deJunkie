@@ -1,4 +1,4 @@
-<h1 align="center">Khulekani Shaun Madondo</h1>
+<h1 align="center">Shaun Madondo</h1>
 
 <p align="center">
   <b>Self-taught developer · Durban, KwaZulu-Natal, South Africa</b><br>
@@ -16,11 +16,11 @@
 
 ## 👋 About
 
-I've been building software since 2020, all of it self-taught. Most of what I ship is for South
-African businesses and communities: a WhatsApp-native HR and payroll platform, a credit-builder
-fintech, a grocery shop's point-of-sale and prepaid wallet, a missing-persons platform for a church
-pilgrimage that draws tens of thousands of people, and a run of client websites through the agency
-I ran.
+I've been building software since 2017, starting in grades 10 to 12 at high school, all of it
+self-taught. Most of what I ship is for South African businesses and communities: a WhatsApp-native
+HR and payroll platform, a credit-builder fintech, a grocery shop's point-of-sale and prepaid
+wallet, a missing-persons platform for a church pilgrimage that draws tens of thousands of people,
+and a run of client websites through the agency I built and exited.
 
 WhatsApp shows up in a lot of it, and that's deliberate. It's the app people here already have open,
 so putting clocking, leave, payslips or birthday reminders inside a chat thread beats asking anyone
@@ -32,8 +32,8 @@ say what's in each one.
 ## ⚡ Quick facts
 
 - 📍 **Based** — Durban, KwaZulu-Natal
-- 🧱 **Shipped or in build** — 6 products, plus agency client work
-- 🗓️ **Building since** — 2020
+- 🗓️ **Building since** — 2017, from grade 10
+- 🧱 **Built** — 10+ products, and worked on 15+
 - 🤖 **AI coding agents** — Claude Code, GitHub Copilot, Codex (expert level, daily)
 - 🧠 **Also runs** — self-hosted LLMs, on-device and on self-managed cloud
 
@@ -46,9 +46,9 @@ say what's in each one.
 | 💳 **Payments** | Paystack, Yoco |
 | 🗄️ **Data** | Postgres (Neon, Supabase), Prisma, Drizzle ORM, Firebase, IndexedDB / Dexie |
 | ☁️ **Infrastructure** | Vercel, AWS (S3, EC2), VPS hosting, Cloudflare |
-| 🔐 **Domains &amp; mail** | DirectAdmin, GoDaddy, DNS, SPF / DKIM / DMARC, Google Workspace |
+| 🔐 **Domains &amp; mail** | DirectAdmin, cPanel, GoDaddy, DNS, SPF / DKIM / DMARC, Google Workspace |
 | 📱 **Mobile** | Flutter, progressive web apps |
-| 🤖 **AI** | Gemini, Claude (Haiku / Sonnet), self-hosted models |
+| 🤖 **AI** | Gemini, Claude (Opus / Sonnet), self-hosted models |
 
 ## 🚀 Featured work
 
@@ -61,7 +61,11 @@ say what's in each one.
 | **KwaMnquhe** | Grocery storefront, offline-first POS and the Mnquhe Card prepaid wallet, built for a shop starting from a shipping container. | Next.js, Preact PWA, Supabase, Dexie / IndexedDB |
 | [**EazyHR**](https://eazyhr.ai) | Multi-tenant HR and payroll platform. Clocking, leave and payslips over one WhatsApp contact, with an employer dashboard. SARS PAYE brackets, UIF, BCEA leave rules. | React, Vite, Express, Supabase, Paystack, Twilio |
 | **Riverrr** | Credit-builder fintech — wallet, card, a plan that reports contributions to build credit history, plus group savings, funeral cover and merchant payments. | Next.js 16, Drizzle ORM, Neon Postgres, Paystack |
-| [**Tholakala**](https://tholakala.app) | Missing-persons and lost-property platform for the Ebuhleni pilgrimage. Steward console, Flutter field app, and a found-child flow that never publishes a child's details. | Next.js, Neon Postgres, Vercel Blob, Flutter |
+| [**Tholakala**](https://tholakala.app) | Missing-persons and lost-property platform for the Ebuhleni pilgrimage. Steward console, offline-tolerant PWA, Flutter field app, and a found-child flow that never publishes a child's details. | Next.js, Neon Postgres, Twilio, signed-URL storage, magic-link / OTP auth |
+
+Live and maintained by me day to day, build work plus the hosting, DNS and Google Workspace
+behind each one: **BeGivvy, Kept In Print, Tholakala, KwaMnquhe** and **Kwandengezi Medical
+Centre**. EazyHR and Riverrr are no longer maintained.
 
 ### Client &amp; agency work
 
@@ -70,8 +74,7 @@ say what's in each one.
 | [**Kwandengezi Medical Centre**](https://www.drpanday.co.za) | Practice website with local SEO, plus a one-question-at-a-time patient form builder. | Next.js 14, Neon Postgres |
 | **Practice mail console** | A usable front end over DirectAdmin so staff manage mailboxes without touching Roundcube. | Next.js, IMAP / SMTP, DirectAdmin API |
 | [**Konvrg**](https://konvrg.dev) | Marketing site for WhatsApp-based business systems. | Next.js 16, Tailwind |
-| **Citi Ad Agency** | Web design and development agency, now closed. Client sites including Zerny Experiential, Nova College, Harmattan Renewables, and WindAC for SAWEA / Windaba. | WordPress, HTML / CSS / JS |
-| **Ongoing hosting &amp; DNS** | Boston Private, Hamptons, Hartford House Preparatory, Harrington Primary — websites, hosting and Google Workspace kept running day to day. | DirectAdmin, DNS, Google Workspace |
+| **Citi Ad Agency** | Web design agency, since exited. Priced per project rather than by page count. Sites for Zerny Experiential, Nova College, Harmattan Renewables, WindAC (SAWEA / Windaba), Boston Private, Hamptons, Hartford House Preparatory and Harrington Primary — built there, no longer maintained by me. | WordPress, HTML / CSS / JS |
 
 ### Things I built to learn
 
