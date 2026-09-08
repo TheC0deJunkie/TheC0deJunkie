@@ -93,10 +93,6 @@ I'd rather write myself than plug in, so I stay away from Clerk and providers li
 and config go in JSON as a single source of truth rather than being scattered through pages.
 Anything meant to run at a till or in a crowd gets built offline-first.
 
-Alongside the day-to-day tools I keep a small library of Claude skills for my own use:
-human-writing, product-ui-design, presentation-strategy, and a business-coach skill built on
-Chris Do, Alex Hormozi, Vusi Thembekwayo and Phil M. Jones.
-
 ## 💻 Stack
 
 ![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff)
@@ -118,12 +114,6 @@ Chris Do, Alex Hormozi, Vusi Thembekwayo and Phil M. Jones.
 ![Paystack](https://img.shields.io/badge/Paystack-011B33?logo=paystack&logoColor=fff)
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=fff)
 
-## 📊 GitHub
-
-<p align="left">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=TheC0deJunkie&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheC0deJunkie&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</p>
 
 ## 📫 Contact
 
