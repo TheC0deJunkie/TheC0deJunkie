@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://wa.me/27680815781">WhatsApp</a> ·
   <a href="https://www.linkedin.com/in/khulekani-shaun-mpanza1">LinkedIn</a> ·
-  <a href="mailto:khulekani.zondi704@gmail.com">Email</a>
+  <a href="mailto:iamshaunmadondo@gmail.com">Email</a>
 </p>
 
 ---
@@ -120,7 +120,7 @@ Anything meant to run at a till or in a crowd gets built offline-first.
 Open to client work and collaboration. WhatsApp is the fastest way to reach me.
 
 - 💬 [+27 68 081 5781](https://wa.me/27680815781) — WhatsApp
-- ✉️ [khulekani.zondi704@gmail.com](mailto:khulekani.zondi704@gmail.com)
+- ✉️ [iamshaunmadondo@gmail.com](mailto:iamshaunmadondo@gmail.com)
 - 💼 [linkedin.com/in/khulekani-shaun-mpanza1](https://www.linkedin.com/in/khulekani-shaun-mpanza1)
 
 <sub>Durban, KwaZulu-Natal.</sub>
